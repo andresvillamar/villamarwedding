@@ -105,7 +105,7 @@ $(document).ready(function() {
 /*-----------------------------------------------------------------------------------*/
 
 var map;
-var myLatlng = new google.maps.LatLng(41.38031,2.17416); // Specify YOUR coordinates
+var myLatlng = new google.maps.LatLng(20.98865,-86.836037); // Specify YOUR coordinates
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -121,7 +121,7 @@ function initialize() {
 		{
 			"featureType": "road",
 			"stylers": [
-				{ "hue": "#ff3300" },
+				{ "hue": "#9E4FE2" },
 				{ "gamma": 0.82 },
 				{ "visibility": "on" },
 				{ "saturation": 62 },
@@ -135,13 +135,13 @@ function initialize() {
 			]
 		},{
 			"stylers": [
-				{ "hue": "#ff0000" }
+				{ "hue": "#9E4FE2" }
 			]
 		}
 	]
 
 	var mapOptions = {
-		zoom: 18,
+		zoom: 12,
 		center: myLatlng,
 		disableDefaultUI: true,
 		scrollwheel: false,
@@ -164,7 +164,7 @@ function initialize() {
 	var image = new google.maps.MarkerImage("img/map-marker@2x.png", null, null, null, new google.maps.Size(55,57));
 
 	// Includes custom marker on map
-	var myLatLng = new google.maps.LatLng(41.38031,2.17416);
+	var myLatLng = new google.maps.LatLng(20.98865,-86.836037);
 	var beachMarker = new google.maps.Marker({
 		position: myLatLng,
 		map: map,

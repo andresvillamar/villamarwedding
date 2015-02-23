@@ -1,0 +1,16 @@
+Original Color									Replacement Color
+#de675f											#8D3FD1
+#fb918a											#AE5FF2
+#ec6d65											#9E4FE2
+#987c61											#000000
+#755f49											#000000
+background-color: rgba( 222, 103, 95, 0.7);	 	background-color:rgba(148,75,159,0.7);
+
+
+
+If you want to change the font:
+
+1) Go to google.com/fonts
+2) Add the fonts to the top of the index.html source code (see line 16 in index.html)
+3) Look for 'font name' you are replacing in the styles.css page (see line 144 in styles.css)
+4) Put the name that is referenced in the google fonts page
